@@ -36,7 +36,7 @@ function setup(){
 
   posenet= ml5.poseNet(video, loadedModel);
   posenet.on('pose', gotPoses); 
-  - bvm
+ 
   function loadedModel() {
     console.log("Console has loaded model... Or did it?"); 
   } 
